@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
+  <title>Printable Assignment Schedule</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Printable Assignment Schedule</h1>
+      <p>Beaumont Division assignment schedule grouped by location.</p>
+      <div class="toolbar">
+        <a class="button" href="index.html">Home</a>
+        <a class="button secondary" href="data/jobs.csv">Download jobs CSV</a>
+        <button class="button secondary" onclick="window.print()">Print / Save PDF</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="card notice">
+      <h2>Schedule order</h2>
+      <p><strong>Beaumont → Port Arthur → Mossville → Leesville</strong></p>
+      <p class="small">Effective 00:01 Monday, July 13, 2026.</p>
+    </section>
+    <section class="card">
+      <h2>Daily Crew Demand</h2>
+      <div id="summary" class="summary-grid"></div>
+    </section>
+    <div id="schedule"></div>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
