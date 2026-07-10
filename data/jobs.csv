@@ -8,7 +8,7 @@ Beaumont,RLF5,EN/CO,2,Port Arthur/Beaumont,5/12's,OFF,OFF,08:00 BM02,08:00 BM02,
 Port Arthur,LP01,RC FO/S1,2,Port Arthur,5/12's,06:00,06:00,06:00,06:00,06:00,OFF,OFF,Qualified RCO Conductor and Qualified RCO Brakeman.
 Port Arthur,LP04,RC FO/S1,2,Port Arthur,5/12's,18:00,18:00,18:00,18:00,18:00,OFF,OFF,Qualified RCO Conductor and Qualified RCO Brakeman.
 Port Arthur,LP03,EN/FO,3,Port Arthur,5/12's,16:00,16:00,16:00,16:00,16:00,OFF,OFF,"Notice states Engineer, Conductor, Brakeman; matrix/job table was not updated."
-Port Arthur,BM01,EN/FO,2,Port Arthur,5/12's,15:30,15:30,15:30,15:30,15:30,OFF,OFF,"Crew count corrected to 2. Craft shown as EN/FO."
+Port Arthur,BM01,EN/FO/BK,3,Port Arthur,5/12's,15:30,15:30,15:30,15:30,15:30,OFF,OFF,"Qualified Engineer, Qualified Conductor, Qualified Brakeman; matrix/job table was not updated."
 Port Arthur,BM02,EN/FO,2,Port Arthur,5/12's,08:00,08:00,OFF,OFF,08:00,08:00,08:00,Qualified Engineer and Qualified Conductor.
 Mossville,L18,EN/CO,2,Mossville,5/12's,OFF,16:15,16:15,16:15,16:15,16:15,OFF,Qualified Engineer and Qualified Conductor.
 Mossville,RL10 (RC),FO/S1,2,Mossville,5/12's,06:00,06:00,06:00,06:00,06:00,OFF,OFF,Qualified RCO Conductor and Qualified RCO Brakeman.
