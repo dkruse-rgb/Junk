@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2026 assigned off-day matrix for Beaumont XEN spots 1 through 9.">
+  <title>2026 XEN Off-Day Matrix | Work Resources</title>
+  <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="eyebrow">Work Resources • Beaumont</p>
+      <h1>2026 XEN Off-Day Matrix</h1>
+      <p>Spots 1 through 9 are shown together by month. Gold boxes mark assigned off days under the 6-on / 2-off matrix.</p>
+      <div class="top-links">
+        <a class="button primary" href="../../../">View job listings</a>
+        <a class="button" href="../../schedules/beaumont-assignment-schedule.html">Printable job schedule</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="toolbar-wrap" aria-label="Calendar controls">
+    <div class="container toolbar">
+      <div class="view-picker">
+        <label for="job-picker">Calendar view</label>
+        <select id="job-picker">
+          <option value="ALL">All XEN turn spots</option>
+          <option value="XEN1B">Spot 1 — XEN1B</option>
+          <option value="XEN2B">Spot 2 — XEN2B</option>
+          <option value="XEN3B">Spot 3 — XEN3B</option>
+          <option value="XEN4B">Spot 4 — XEN4B</option>
+          <option value="XEN5B">Spot 5 — XEN5B</option>
+          <option value="XEN6B">Spot 6 — XEN6B</option>
+          <option value="XEN7B">Spot 7 — XEN7B</option>
+          <option value="XEN8B">Spot 8 — XEN8B</option>
+          <option value="XEN9B">Spot 9 — XEN9B</option>
+        </select>
+      </div>
+      <div class="toolbar-actions">
+        <a class="button" id="download-csv" href="#" download>Download CSV</a>
+        <button class="button" id="print-calendar" type="button">Print / Save PDF</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <section class="summary">
+        <div>
+          <p class="eyebrow" style="color:#a8272d">Complete schedule</p>
+          <h2 id="selected-job">All XEN Turn Spots</h2>
+          <p id="selected-description">Spots 1 through 9 shown together for all twelve months</p>
+        </div>
+        <div class="stats" aria-live="polite">
+          <div>
+            <strong id="primary-stat">9</strong>
+            <span id="primary-stat-label">turn spots shown</span>
+          </div>
+          <div>
+            <strong>6 &amp; 2</strong>
+            <span>work/rest cycle</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="legend">
+        <span><i class="swatch off" aria-hidden="true"></i> Assigned off day</span>
+        <span><i class="swatch today" aria-hidden="true"></i> Today</span>
+        <span class="mobile-hint">Swipe a month sideways to see every date.</span>
+      </div>
+
+      <noscript>This calendar requires JavaScript.</noscript>
+      <div id="calendar-grid" class="all-turn-calendar" aria-live="polite"></div>
+
+      <section class="source-note">
+        <h3>Source and mapping</h3>
+        <p>Built from US South Region – Baton Rouge–Beaumont General Manager Notice No. 10, issued January 1, 2026, titled “2026 6&amp;2 ADO Matrix.” XEN1B maps to Turn 1 through XEN9B mapping to Turn 9. Turn 9 uses the same listed date pattern as Turn 1. Verify against current local instructions before relying on the schedule.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="calendar.js"></script>
+</body>
+</html>
